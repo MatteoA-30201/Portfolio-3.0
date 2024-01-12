@@ -1,0 +1,226 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#navbar-background {
+  background-color: #12191D;
+  border-bottom:#2A3034 solid 2px;
+}
+
+#logo img {
+  width:80px;
+  height: 80px;
+}
+
+.topnav-container {
+display: flex;
+flex-flow: row nowrap;
+}
+
+@media (min-width: 1000px) {
+
+ .heading-size-change {
+  font-size: 30px;
+}
+}
+
+@media (min-width: 790.98px) {
+
+.heading-size-change {
+  font-size: 20px;
+}
+}
+
+@media (max-width: 790.98px) {
+
+.heading-size-change {
+  font-size: 15px;
+}
+#logo img {
+  width: 70px;
+  height: 70px;
+}
+}
+
+@media (max-width: 662px) {
+.topnav-container {
+  width: 100%;
+  justify-content: flex-start;
+}
+.heading-size-change {
+  font-size: 14px;
+}
+#logo img {
+  width: 70px;
+  height: 70px;
+}
+#logo-container {
+  padding-right: 0%;
+}
+}
+
+@media (min-width: 662px) {
+#logo-container {
+    padding-right: 10%;
+}
+.topnav {
+  justify-content: center;
+  width: 40%;
+}
+}
+
+.topnav {
+  overflow: hidden;
+  height: 15%;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #81D1E8;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 20px;
+  display: block;
+}
+
+.skeuomorphic-buttons-navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; 
+  font-family: 'Montserrat', sans-serif;
+  height: 75px;
+  outline-offset: 1px;
+  margin-left: 10px;
+}
+
+.skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 17px;
+  align-items: center;
+  background-color: #2a30343b;
+  border-radius: 10px;
+}
+
+.skeuomorphic-buttons:hover {
+  cursor: pointer;
+  text-decoration: underline #2A3034;
+  color: rgb(89, 207, 240);
+  transition: color 1s;
+}
+
+.container-xl {
+border-radius: 20px;
+margin-top: 10px;
+background-color: #81D1E8;
+border: #2a3a45 ridge 10px;
+}
+
+.top-row {
+margin-top: 25px;
+margin-bottom: 80px;
+background-color: #81D1E8;
+font-size: 70px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 768px) {
+  #navbar-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    margin-top: 10px;
+  }
+}
+
+.navbar-toggler {
+  margin-top: 10px;
+  background-color: #81D1E8;
+}
+
+.navbar-toggler-icon {
+  width: 60px;
+  height: 60px;
+
+}
+
+@media (min-width: 870px) {
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    width: max(1600px, calc(70% + 100px));
+    margin-left: 10%;
+  }
+
+  .heading-size-change {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 870px) {
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    margin-bottom: 10px;
+  }
+  .skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+    align-items: center;
+    background-color: #2a30343b;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.homepage-position {
+  position: absolute;
+  padding-top: 150px;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
