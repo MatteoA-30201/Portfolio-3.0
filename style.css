@@ -1,3 +1,51 @@
+.background-contrast-color {
+  color: #172228;
+}
+
+.background-color {
+  color: #12191D;
+}
+
+.text-color {
+  color: #81D1E8;
+}
+
+.secondary-color {
+  color: #00ccf7;
+}
+
+.primary-color {
+  color: #0e525d;
+}
+
+.accent-color {
+  color: #49fff3;
+}
+
+.background-contrast-color-background {
+  background-color: #172228;
+}
+
+.background-color-background {
+  background-color: #12191D;
+}
+
+.text-color-background {
+  background-color: #81D1E8;
+}
+
+.secondary-color-background {
+  background-color: #00ccf7;
+}
+
+.primary-color-background {
+  background-color: #0e525d;
+}
+
+.accent-color-background {
+  background-color: #49fff3;
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
@@ -229,7 +277,54 @@ font-family: 'Montserrat', sans-serif;
   background-color: #12191d;
 }
 
-.landing-page-background-img {
+.landing-page-background {
   height: 1000px;
-  width: 1200px;
+  width: 1333.33333333px;
+  background-image: url("Photos/milad-fakurian-6zF2CgAZVXY-unsplash.jpg");
+  background-size: cover;
+  border-radius: 62px;
 }
+
+.homepage-name-heading > h1 {
+  text-align: center;
+  font-size: 128px;
+  color: #81d1e8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.landing-page-moon-img {
+  width: 135.333333333px;
+  height: 135px;
+}
+
+.homebox {
+  opacity: 50%;
+  border-radius: 15px;
+}
+
+.homebox1-z-index {
+  z-index: 1;
+}
+
+#homebox1 {
+  height: 35px;
+  width: 506px;
+  margin-top: 100px;
+}
+
+#homebox2 {
+  height: 35px;
+  width: 396px;
+}
+
+#homebox3 {
+  height: 35px;
+  width: 402px;
+}
+
+#homebox4 {
+  height: 35px;
+  width: 547px;
+}
+
