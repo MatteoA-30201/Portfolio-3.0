@@ -278,13 +278,12 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .landing-page-background {
-  height: 1315px;
+  height: 100%;
   width: 1750px;
   background-image: url("Photos/milad-fakurian-6zF2CgAZVXY-unsplash.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 62px;
-  margin-bottom: 100px;
   margin-top: 50px;
 }
 
@@ -305,10 +304,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .landing-page-moon-img {
-  width: 676.666666667px;
-  height: 675px;
-  margin-top: 250px;
-  margin-bottom: 130px;
+  padding-top: 250px;
+  padding-bottom: 130px;
 }
 
 .homebox {
@@ -318,25 +315,25 @@ font-family: 'Montserrat', sans-serif;
 
 #homebox1 {
   height: 45px;
-  width: 547px;
+  width: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-right: 30px;
+  padding-right: 30px;
 }
 
 #homebox2 {
   height: 45px;
-  width: 342px;
+  width: 100%;
 }
 
 #homebox3 {
   height: 45px;
-  width: 342px;
+  width: 100%;
 }
 
 #homebox4 {
   height: 45px;
-  width: 547px;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
