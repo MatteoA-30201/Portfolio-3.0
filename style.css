@@ -311,6 +311,16 @@ font-family: 'Montserrat', sans-serif;
     position: absolute;
     margin-left: -115px;
   }
+
+  .landing-page-background {
+  height: 100%;
+  background-image: url("Photos/ivana-cajina-asuyh-_ZX54-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+}
+
 }
 
 .landing-page-moon-img {
