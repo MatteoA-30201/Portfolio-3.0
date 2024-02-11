@@ -1,3 +1,14 @@
+.default-text-box {
+  border: #81D1E8 solid 1px;
+  border-radius: 62px;
+  background-color: rgba(18, 25, 29, 0.5);
+  text-align: center;
+}
+
+.heading-4 {
+  font-size: 48px;
+}
+
 .background-contrast-color {
   color: #172228;
 }
@@ -275,16 +286,20 @@ font-family: 'Montserrat', sans-serif;
 
 #Homepage {
   background-color: #12191d;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .landing-page-background {
-  height: 100%;
+  height: 94%;
   width: 1750px;
   background-image: url("Photos/milad-fakurian-6zF2CgAZVXY-unsplash.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 62px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .homepage-middle-row {
@@ -313,12 +328,14 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .landing-page-background {
-  height: 100%;
+  height: 94%;
   background-image: url("Photos/ivana-cajina-asuyh-_ZX54-unsplash.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 62px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 }
@@ -356,15 +373,149 @@ font-family: 'Montserrat', sans-serif;
   width: 100%;
   margin-top: 20px;
   margin-left: 30px;
-  margin-bottom: -27px;
+
 }
 
-.work-exp-box-1 {
-  height: 100%;
-  width: 1750px;
-  background-image: url("Photos/richard-horvath-cPccYbPrF-A-unsplash.jpg");
+.edu-box-1 {
+  height: 1194px;
+  width: 1791px;
+  background-image: url("Photos/richard-horvath-cPccYbPrF-A-unsplash.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 62px;
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.edu-box-row-center {
+  width: 100%;
+}
+
+.edu-box-1-text-box {
+  padding: 200px 30px;
+  width: 90%;
+}
+
+.edu-box-2 {
+  height: 1091px;
+  width: 1791px;
+  background-image: url("Photos/image 16 (1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.edu-box-2-text-box {
+  padding: 200px 30px;
+  width: 90%;
+}
+
+@media (max-width: 1608px) {
+  .heading-4 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1356px) {
+  .heading-4 {
+    font-size: 32px;
+  }
+  
+  .edu-box-1-text-box {
+    padding: 150px 30px;
+    width: 95%;
+  }
+
+  .edu-box-2-text-box {
+    padding: 175px 30px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1187px) {
+  .heading-4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading-4 {
+    font-size: 30px;
+  }
+
+  #edu-box-2-info {
+    width: 80%;
+  }
+
+  #edu-box-1-info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  #edu-box-2-info {
+    width: 90%;
+  }
+
+  #edu-box-1-info {
+    width: 90%;
+  }
+
+  .edu-box-1-text-box {
+    padding: 70px 30px;
+    width: 95%;
+  }
+
+  .edu-box-2-text-box {
+    padding: 70px 30px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .heading-4 {
+    font-size: 20px;
+  }
+
+  #edu-box-2-info {
+    width: 100%;
+  }
+
+  #edu-box-1-info {
+    width: 100%;
+  }
+
+  .edu-box-1-text-box {
+    padding: 50px 30px;
+    width: 95%;
+  }
+
+  .edu-box-2-text-box {
+    padding: 50px 30px;
+    width: 95%;
+  }
+
+  .edu-box-2 {
+    height: 691px;
+    width: 1791px;
+    background-image: url("Photos/image 16 (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 62px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .edu-box-1 {
+    height: 691px;
+    width: 1791px;
+    background-image: url("Photos/richard-horvath-cPccYbPrF-A-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 62px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
