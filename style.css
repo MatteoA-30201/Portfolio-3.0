@@ -472,6 +472,11 @@ font-family: 'Montserrat', sans-serif;
     padding: 70px 30px;
     width: 95%;
   }
+
+  #edu-box-3-image {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -518,4 +523,37 @@ font-family: 'Montserrat', sans-serif;
     margin-top: 50px;
     margin-bottom: 50px;
   }
+}
+
+.edu-box-3 {
+  height: 644px;
+  width: 1791px;
+  background-image: url("Photos/pawel-czerwinski-IcOg3D9yh0o-unsplash.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#edu-box-3-image {
+  width: 50%;
+  height: 50%;
+}
+
+.edu-box-4 {
+  height: 1203px;
+  width: 1791px;
+  background-image: url("Photos/image 13.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 200px 200px;
+}
+
+#edu-box-4-image {
+  width: 50%;
+  height: 50%;
 }
