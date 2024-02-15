@@ -550,10 +550,54 @@ font-family: 'Montserrat', sans-serif;
   border-radius: 62px;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 200px 200px;
+  
 }
 
 #edu-box-4-image {
   width: 50%;
   height: 50%;
+}
+
+.edu-box-5 {
+  height: 1203px;
+  width: 1791px;
+  background-image: url("Photos/henrik-donnestad-t2Sai-AqIpI-unsplash.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+#edu-box-5-image {
+  width: 50%;
+  height: 50%;
+}
+
+@media (min-width: 750px) {
+  .edu-box-5-row-1 {
+    margin-right: 300px;
+    margin-left: 75px;
+    width: 75%;
+    margin-bottom: 200px;
+  }
+  
+  .edu-box-5-row-2 {
+    margin-left: 21%;
+    margin-right: 75px;
+    width: 75%;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .edu-box-5-row-1 {
+    margin-left: 1px;
+    margin-bottom: 100px;
+  }
+  
+  .edu-box-5-row-2 {
+    margin-left: 1px;
+  }
 }
