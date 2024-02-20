@@ -327,6 +327,10 @@ font-family: 'Montserrat', sans-serif;
     margin-left: -115px;
   }
 
+  .work-name-heading > p {
+    font-size: 45%;
+  }
+
   .landing-page-background {
   height: 94%;
   background-image: url("Photos/ivana-cajina-asuyh-_ZX54-unsplash.jpg");
@@ -336,7 +340,7 @@ font-family: 'Montserrat', sans-serif;
   border-radius: 62px;
   margin-top: 50px;
   margin-bottom: 50px;
-}
+  }
 
 }
 
@@ -550,7 +554,6 @@ font-family: 'Montserrat', sans-serif;
   border-radius: 62px;
   margin-top: 50px;
   margin-bottom: 50px;
-  
 }
 
 #edu-box-4-image {
@@ -567,7 +570,6 @@ font-family: 'Montserrat', sans-serif;
   border-radius: 62px;
   margin-top: 50px;
   margin-bottom: 50px;
-  
 }
 
 #edu-box-5-image {
@@ -582,6 +584,11 @@ font-family: 'Montserrat', sans-serif;
     width: 75%;
     margin-bottom: 200px;
   }
+
+  .edu-box-4-img {
+    width: 350px;
+    height: 350px;
+  }
   
   .edu-box-5-row-2 {
     margin-left: 21%;
@@ -594,10 +601,127 @@ font-family: 'Montserrat', sans-serif;
 @media (max-width: 750px) {
   .edu-box-5-row-1 {
     margin-left: 1px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   
   .edu-box-5-row-2 {
     margin-left: 1px;
   }
+
+  .edu-box-4 {
+    height: 580px;
+    width: 1791px;
+    background-image: url("Photos/image 13 Solo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 62px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .edu-box-5 {
+    height: 980px;
+    width: 1791px;
+    background-image: url("Photos/henrik-donnestad-t2Sai-AqIpI-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 62px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #edu-box-6 {
+    height: 900px;
+    width: 1791px;
+    background-image: url("Photos/image 19.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 62px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #work-middle-row {
+    margin-top: -3275px;
+  }
+}
+
+.edu-box-6 {
+  height: 1500px;
+  width: 1791px;
+  background-image: url("Photos/image 19.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 750px) {
+  .edu-box-6-row-1 {
+    margin-right: 300px;
+    margin-left: 75px;
+    width: 75%;
+    margin-bottom: 200px;
+  }
+  
+  .edu-box-6-row-2 {
+    margin-left: 21%;
+    margin-right: 75px;
+    width: 75%;
+  }
+
+  .edu-box-6-row-3 {
+    margin-right: 300px;
+    margin-left: 75px;
+    width: 75%;
+    margin-top: 200px;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .edu-box-6-row-1 {
+    margin-left: 1px;
+    margin-bottom: 25px;
+  }
+  
+  .edu-box-6-row-2 {
+    margin-left: 1px;
+  }
+
+  .edu-box-6-row-3 {
+    margin-left: 1px;
+    margin-top: 25px;
+  }
+}
+
+.work-name-heading {
+  text-align: center;
+  font-size: 500%;
+  color: #81d1e8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.work-middle-row {
+  margin-top: -3200px;
+}
+
+.work-text-box {
+  border: #81D1E8 solid 1px;
+  border-radius: 32px;
+  background-color: rgba(18, 25, 29, 0.5);
+  text-align: center;
+}
+
+.edu-box-7 {
+  height: 3500px;
+  width: 1791px;
+  background-image: url("Photos/image 19.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 62px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
