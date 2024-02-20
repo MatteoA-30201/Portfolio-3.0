@@ -286,8 +286,6 @@ font-family: 'Montserrat', sans-serif;
 
 #Homepage {
   background-color: #12191d;
-  padding-right: 50px;
-  padding-left: 50px;
 }
 
 .landing-page-background {
@@ -721,4 +719,18 @@ font-family: 'Montserrat', sans-serif;
 
 .project-photos {
   margin-bottom: 50px;
+}
+
+.contact-section {
+  height: 300px;
+  width: 100%;
+}
+
+.MA-contact-img {
+  width: 87px;
+  height: 87px;
+}
+
+.contact-row {
+  width: 100%;
 }
