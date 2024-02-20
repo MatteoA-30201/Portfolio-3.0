@@ -697,7 +697,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .work-middle-row {
-  margin-top: -3200px;
+  margin-top: 80px;
 }
 
 .work-text-box {
@@ -705,10 +705,11 @@ font-family: 'Montserrat', sans-serif;
   border-radius: 32px;
   background-color: rgba(18, 25, 29, 0.5);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .edu-box-7 {
-  height: 3500px;
+  height: 4950px;
   width: 1791px;
   background-image: url("Photos/image 18.png");
   background-size: cover;
@@ -718,3 +719,6 @@ font-family: 'Montserrat', sans-serif;
   margin-bottom: 50px;
 }
 
+.project-photos {
+  margin-bottom: 50px;
+}
