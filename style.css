@@ -525,7 +525,6 @@ font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
     border-radius: 62px;
     margin-top: 50px;
-    margin-bottom: 50px;
   }
 }
 
@@ -536,8 +535,7 @@ font-family: 'Montserrat', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 62px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 #edu-box-3-image {
@@ -552,8 +550,7 @@ font-family: 'Montserrat', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 62px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 #edu-box-4-image {
@@ -568,8 +565,7 @@ font-family: 'Montserrat', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 62px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 #edu-box-5-image {
@@ -615,8 +611,7 @@ font-family: 'Montserrat', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 62px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
   }
 
   .edu-box-5 {
@@ -626,8 +621,7 @@ font-family: 'Montserrat', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 62px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
   }
 
   #edu-box-6 {
@@ -637,8 +631,7 @@ font-family: 'Montserrat', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 62px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
   }
 
   #work-middle-row {
@@ -653,8 +646,7 @@ font-family: 'Montserrat', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 62px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 @media (min-width: 750px) {
@@ -718,10 +710,11 @@ font-family: 'Montserrat', sans-serif;
 .edu-box-7 {
   height: 3500px;
   width: 1791px;
-  background-image: url("Photos/image 19.png");
+  background-image: url("Photos/image 18.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 62px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
