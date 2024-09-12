@@ -775,7 +775,7 @@ font-family: 'Montserrat', sans-serif;
 .contact-section {
   height: 300px;
   width: 100%;
-  background-color: #1a4f52;
+  background-color: #000505;
   border-top: #3EBAC0 solid 2px;
   font-weight: 600;
 }
@@ -818,7 +818,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .icon svg {
-  fill: #111;
+  fill: #3EBAC0;
 }
 
 .socialcontainer {
@@ -827,8 +827,13 @@ font-family: 'Montserrat', sans-serif;
 }
 .social-icon-1 {
   transition-duration: 0.4s;
-  background-color: rgb(0, 0, 0);
   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  background: linear-gradient(
+    72.44deg,
+    #22666a 11.92%,
+    #CFFCFF 51.56%,
+    #3EBAC0 85.69%
+  );
 }
 .social-icon-1 svg,
 .social-icon-2 svg,
@@ -840,7 +845,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .social-icon-1-1 {
   transition-duration: 0.4s;
-  background-color: rgb(0, 0, 0, 0);
+  background-color: #00000000;
 }
 .socialcontainer:hover .social-icon-1 {
   transform: translateY(-70px);
@@ -856,9 +861,9 @@ font-family: 'Montserrat', sans-serif;
   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
   background: linear-gradient(
     72.44deg,
-    #ff7a00 11.92%,
-    #ff0169 51.56%,
-    #d300c5 85.69%
+    #22666a 11.92%,
+    #CFFCFF 51.56%,
+    #3EBAC0 85.69%
   );
 }
 .socialcontainer:hover .social-icon-2 {
@@ -867,7 +872,12 @@ font-family: 'Montserrat', sans-serif;
 .social-icon-3 {
   transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
-  background: #316ff6;
+  background: linear-gradient(
+    72.44deg,
+    #22666a 11.92%,
+    #CFFCFF 51.56%,
+    #3EBAC0 85.69%
+  );
 }
 
 .socialcontainer:hover .social-icon-3 {
@@ -876,11 +886,11 @@ font-family: 'Montserrat', sans-serif;
 .social-icon-4 {
   transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
-
   background: linear-gradient(
-    180deg,
-    rgba(129, 34, 144, 1) 0%,
-    rgba(77, 34, 124, 1) 91%
+    72.44deg,
+    #22666a 11.92%,
+    #CFFCFF 51.56%,
+    #3EBAC0 85.69%
   );
 }
 
